@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <title>CupCup</title>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/booNavigation.css">
+    <link rel="stylesheet" href="css/medile.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+        a:hover{
+            color:#ef4238;
+
+        }
+        a:active{ color: #969; }
+        a:link {
+            text-decoration: none;
+        }
+        a:visited {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        a:active {
+            text-decoration: none;
+        }
+        input:focus {
+            color: #fff;
+            border: 1px solid #ef4238;
+            background-color: #ef4238;
+        }
+        footer{
+            width: 100%;
+            height: 300px;
+            background-color: #EAEAEA;
+        }
+
+        .div1 ul li{
+            display: inline;
+            list-style-type:none;
+            font-size: 15px;
+        }
+        .w1200{width:1200px;margin:auto;}
+        .itembox{display:flex;justify-content:space-between;align-items:center;padding:20px 0;}
+
+        .hotnews {
+            text-align: center;
+            padding: 20px 0;
+            line-height: 60px;
+        }
+
+        .hotlist {
+            background-color: #faebcc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        .tou1{
+            color:#C5C5C5;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<div style="width:100%; background-color: #FFF; height:60px; border-bottom: 1px solid  #CCC; border-bottom-style:dashed;">
+    <a href="#" class="tou">联系我们</a>
+    <a href="#" class="tou">加入我们</a>
+    <a href="#" class="tou">友情链接</a>
+
+    <div class="col-lg-6" >
+        <div class="input-group" style="width:230px; margin-left:600px; margin-top:15px;">
+            <input id="text" name="text" placeholder="请搜索你想要查询的信息" style="border-radius:10px;height: 40px; border-color:#CCC; outline-style: none;">
+            <span class="input-group-btn">
+						<button class="btn btn-default" type="button" style="border-color:#CCC;border-radius:90px; height:40px; width:40px; outline-style: none; border-style:dashed;">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</span>
+        </div>
+    </div>
+</div>
+
+<div style="height:100px; background-color:#FFF">  <img src="img/hyrj_log.png" alt="cup cup" style="height:90px; width:90px; margin-top:5px; margin-left:130px;">
+    <img src="img/hyrj_text.png" alt="cup cup" style="height:65px; width:125px; margin-top:25px; margin-left:5px;">
+</div>
+
+
+<div class="wrapper" >
+    <nav id="booNavigation" class="booNavigation">
+        <ul>
+            <li class="navItem">
+                <a href="#" title="First Item"><span>首页</span></a>
+            </li>
+
+            <li class="navItem">
+                <a href="#" title="Second Item"><span>研学资讯</span></a>
+                <ul class="navContent" style="width:250px;margin-left:200px;margin-top: 5px">
+                    <li >
+                        <ul>
+                            <li style="margin-left:15px; width:200px;"><a href="#" title="Boo the cat">最新资讯</a><li/>
+                            <li style="margin-left:15px; width:200px;"><a href="#" title="The invisible cat">最新政策</a><li/>
+                            <li style="margin-left:15px; width:200px;"><a href="#" title="The amazing cat">研学知识</a><li/>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="navItem">
+                <a href="#" title="Third Item"><span>研学路线</span></a>
+            </li>
+            <li class="navItem">
+                <a href="#" title="First Item"><span>研学课程</span></a>
+            </li>
+            <li class="navItem">
+                <a href="#" title="First Item"><span>活动展示</span></a>
+            </li>
+            <li class="navItem">
+                <a href="#" title="First Item"><span>研学指南</span></a>
+            </li>
+        </ul>
+
+    </nav>
+
+</div>
+
+
+
+<div id="myCarousel" class="carousel slide" style="margin-right:-10px;">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="img/yanxue2.jpg" alt="First slide"width="100%;" height="100%;">
+            <div class="carousel-caption"><div class="bantou"> <h2>爱国主义教育基地</h2>
+                <h2>-----------------------------------------</h2>
+                <p style="color:#FFF;">爱国主义教育基地</p><p> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;了解新疆历史，感受红色文化。爱国主义教育基地通过展示国家历史、发展成就、英雄事迹、民族文化等方式，向公众传达爱国主义的核心价值观念，提高学生对国家和民族的认同感和归属感，培养爱国主义精神和价值观。</p>
+                <button type="button" class="btn btn-default btn-sm" style="margin-top:10px; float:right; margin-right:10px;">
+                    <span class="glyphicon glyphicon-play-circle"></span> 详细信息
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="item">
+            <img  src="img/yanxue4.png" alt="Second slide" width="100%;" height="100%;">
+            <div class="carousel-caption"><div class="bantou">
+                <h2>百年喀什馆</h2>
+                <h2>-----------------------------------------</h2>
+                <p style="color:#FFF;">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;百年喀什馆，位于中国新疆维吾尔自治区喀什市巴楚县巴楚镇</p><p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百年喀什馆作为一个重要的历史建筑，具有较高的历史和文化价值。它见证了当地的政治变迁和社会发展，提供了研究、了解巴楚县近代历史的珍贵资料。此外，作为一个文物保护单位，百年喀什馆也呈现了特有的建筑风格和建筑技术，体现了当地传统建筑文化的特点。</p>
+                <button type="button" class="btn btn-default btn-sm" style="margin-top:10px; float:right; margin-right:10px;">
+                    <span class="glyphicon glyphicon-play-circle"></span> 详细信息
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/yanxue3.png" alt="Third slide"width="100%;" height="100%;">
+            <div class="carousel-caption"><div class="bantou">
+                <h2>明信片交流活动</h2>
+                <h2>-----------------------------------------</h2>
+                <p style="color:#FFF;">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;跨地域学校间的交流与合作。每一张明信片都承载着一份真挚的情感，传递着一份深厚的友谊。这种分享和交流犹如一条无形的纽带，将孩子们的心紧紧相连。</p>
+                <button type="button" class="btn btn-default btn-sm" style="margin-top:10px; float:right; margin-right:10px;">
+                    <span class="glyphicon glyphicon-play-circle"></span> 详细信息
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+</div>
+
+
+
+<div class="w1200">
+    <div class="hotnews" >
+        <h1><a href="#" target="_blank" class="tou1">让红色文化在青少年心中生根发芽</a></h1>
+        <div class="hotlist">
+            <a href="#" target="_blank"class="tou1">三大类红色研学类型、</a>
+            <a href="#" target="_blank"class="tou1">个性化定制路线、红色研学资源库</a>
+        </div>
+    </div>
+</div>
+<div class="w1200">
+    <div class="itembox">
+        <a href="/course/3.html" class="tou1">
+            <h3>红色教育</h3>
+            <p>追寻历史 不忘初心</p>
+        </a>
+        <a href="/course/4.html"class="tou1">
+            <h3>地方文化</h3>
+            <p>继承传统 弘扬美德</p>
+        </a>
+        <a href="/course/21.html"class="tou1">
+            <h3>实践探索</h3>
+            <p>读万卷书 行万里路</p>
+        </a>
+        <a href="/course/20.html"class="tou1">
+            <h3>自然生态</h3>
+            <p>亲近自然 感受生活</p>
+        </a>
+        <a href="/course/2.html"class="tou1">
+            <h3>国情教育</h3>
+            <p>感悟历史 品味人生</p>
+        </a>
+    </div>
+
+
+    <div class="zhengti">
+        <p class="biao" id="section-1" style="width:100%;">
+            <span style="color:#ef4238;"> <img  src="img/icon1.png" alt="cup" style="width:40px; height:50px; margin-left:-270px;">研学路线 <span class="glyphicon glyphicon-chevron-right"></span></span>
+            <span style="float:right; color:#ef4238;margin-right:-30px; margin-top:10px;"> <img  src="img/icon1.png" alt="cup" style="width:40px; height:50px;">最新政策<span class="glyphicon glyphicon-chevron-right"></span></span>
+        </p>
+
+        <br>
+        <ul  class="biao" style="margin-left:-250px;" >
+            <div class="w3l-movie-gride-agile w3l-movie-gride-agile1"style="width:330px;"><li><img  title="album-name"  class="png_size"   src="img/yxlx1.png" alt="cup"></li>
+                <a href="#"> <li class="uuli"> 详细介绍</li></a></div>
+        </ul>
+        <ul  class="biao">
+            <div class="w3l-movie-gride-agile w3l-movie-gride-agile1"style="width:330px;"><li><img  title="album-name" class="png_size"   src="img/yanxue1.png" alt="cup"></li>
+                <a href="#"> <li class="uuli"> 详细介绍</li></a></div>
+        </ul>
+       <br>
+        <p class="biao" id="section-1" style="width:100%;">
+            <span style="color:#ef4238;"><img  src="img/icon1.png" alt="cup" style="width:40px; height:50px; margin-left:-270px;">研学课程 <span class="glyphicon glyphicon-chevron-right"></span></span>
+            <span style="float:right; color:#ef4238;margin-right:-30px; margin-top:10px;"> <img  src="img/icon1.png" alt="cup" style="width:40px; height:50px;">行业资讯<span class="glyphicon glyphicon-chevron-right"></span></span>
+        </p>
+        <br>
+        <ul  class="biao" style="margin-left:-250px;" >
+            <div class="w3l-movie-gride-agile w3l-movie-gride-agile1"style="width:330px;"><li><img  title="album-name"  class="png_size"   src="img/yxlx3.png" alt="cup"></li>
+                <a href="#"> <li class="uuli"> 详细介绍</li></a></div>
+        </ul>
+        <ul  class="biao">
+            <div class="w3l-movie-gride-agile w3l-movie-gride-agile1"style="width:330px;"><li><img  title="album-name" class="png_size"   src="img/yxlx4.png" alt="cup"></li>
+                <a href="#"> <li class="uuli"> 详细介绍</li></a></div>
+        </ul>
+       <br>
+        <ul class="list-group" style="width:340px; height:440px; margin-left:580px; margin-top:-740px; border-color:#ef4238; text-align:left;">
+            <div id="lli1"><li class="list-group-item" style="color:#000; font-size:16px; border-color:#fff; margin-bottom:5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">1 </span>文化和旅游部：非物质文化遗产馆、非遗工坊等要提供体验、研学等服务
+                </li></div>
+            <div id="lli2"><li class="list-group-item" style="color:#000; font-size:16px; border-color:#fff; margin-bottom:5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">2 </span>教育部等10部门联合发文，全面推进“大思政课”建设
+                </li></div>
+            <div id="lli3"><li class="list-group-item" style="color:#000; font-size:16px;border-color:#fff; margin-bottom: 5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">3 </span>教育部发文：统筹研学教育基地、综合实践基地等校外教育资源，建立思政课实践教学基地
+                </li></div>
+            <div id="lli4"><li class="list-group-item" style="color:#000; font-size:16px;border-color:#fff; margin-bottom: 5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">4 </span> 事关大中小学劳动教育和综合实践教育专项经费，教育部答复了！
+                </li></div>
+
+        </ul>
+        <br>
+        <ul class="list-group" style="width:340px; height:440px; margin-left:580px; margin-top:-80px; border-color:#ef4238; text-align:left;">
+            <div id="lli5"><li class="list-group-item" style="color:#000; font-size:16px; border-color:#fff; margin-bottom:5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">1 </span>如何打造文化遗产研学旅行精品？抓住这三个要点！
+            </li></div>
+            <div id="lli6"><li class="list-group-item" style="color:#000; font-size:16px; border-color:#fff; margin-bottom:5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">2 </span>让优秀传统文化在青少年心中生根发芽
+            </li></div>
+            <div id="lli7"><li class="list-group-item" style="color:#000; font-size:16px;border-color:#fff; margin-bottom: 5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">3 </span>做好这4点，让学生在研学旅行中能够开展馆校研学，打破课后服务的时空限制学有所得！
+            </li></div>
+            <div id="lli8"><li class="list-group-item" style="color:#000; font-size:16px;border-color:#fff; margin-bottom: 5px;text-align:left;"><span style="color: #848484; font-style:oblique; font-size:20px;">4 </span> 开展馆校研学，打破课后服务的时空限制
+            </li></div>
+
+        </ul>
+    </div>
+</div>
+
+<!-- Scripts for jQuery and the plugin -->
+<script src="js/booNavigation.js"></script>
+<script>
+    (function() {
+
+        /**
+         * This is the call we have to do to execute
+         * the plugin giving a custom params
+         */
+        $('#booNavigation').booNavigation({
+            slideSpeed: 400
+        });
+
+        $('#booNavigationTwo').booNavigation({
+            slideSpeed: 200
+        });
+
+    })();
+
+</script>
+<footer style=" width:100%;color:#FFF;margin-top: 200px">
+    <div id="footer" >
+        <div>
+            <a href="#">
+                <center > <div style="width:100%; height:100px; background-color:#FFF;border-top: 1px solid  #CCC; border-top-style:dashed;"> <img src="img/hyrj_log.png" alt="cup cup" style="height:90px; width:90px;">
+                    <img src="img/hyrj_text.png" alt="cup cup" style="height:65px; width:125px; margin-top:25px; margin-left:5px;"></div>
+                </center>
+
+            </a>
+        </div>
+        <div class="div1">
+            <ul>
+                <center>
+                    <br>
+                    <br>
+                    <li><a href="#">加入我们 |</a></li>
+                    <li><a href="#">联系我们 |</a></li>
+                    <li><a href="#">关于我们 |</a></li>
+                    <li><a href="#">帮助中心 |</a></li>
+                    <li><a href="#">网站合作 |</a></li>
+                    <li><a href="#">问题反馈 |</a></li>
+                    <li><a href="#">关注我们  </a></li>
+                </center>
+
+                <br>
+                <center>
+                    <li> <img alt="erweima" src="img/2wm.jpg" style="width: 100px;"></li></center>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
